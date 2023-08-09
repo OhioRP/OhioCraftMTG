@@ -39,3 +39,4 @@ end
 dofile(pathjoin(minetest.get_modpath("portcraft"), "blocks", "cool.lua"))
 dofile(pathjoin(minetest.get_modpath("portcraft"), "blocks", "stone_like.lua"))
 dofile(pathjoin(minetest.get_modpath("portcraft"), "blocks", "doors.lua"))
+dofile(pathjoin(minetest.get_modpath("portcraft"), "blocks", "azalea.lua"))
