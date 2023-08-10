@@ -18,7 +18,7 @@ later - minecraft:acacia_pressure_plate
 later - minecraft:activator_rail
 [x] - minecraft:air
 [x] - minecraft:allium
-later - minecraft:amethyst_block
+[x] - minecraft:amethyst_block
 later - minecraft:amethyst_cluster
 [x] - minecraft:ancient_debris
 [x] - minecraft:andesite
