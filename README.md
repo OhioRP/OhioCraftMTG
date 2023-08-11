@@ -21,7 +21,7 @@ $ ./install.sh # will install to `~/.minetest/mods/ohiocraft`
 
 Useful scripts meant to make the development process easier.
 
-### `parse_blocs_json.py`
+### `parse_blocks_json.py`
 
 A script that will parse [`blocks.json`](#blocksjson) and generate a list of blocks in `file.txt`.
 
