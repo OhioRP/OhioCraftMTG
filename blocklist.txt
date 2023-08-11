@@ -19,7 +19,7 @@ later - minecraft:activator_rail
 [x] - minecraft:air
 [x] - minecraft:allium
 [x] - minecraft:amethyst_block
-later - minecraft:amethyst_cluster
+[x] - minecraft:amethyst_cluster
 [x] - minecraft:ancient_debris
 [x] - minecraft:andesite
 [x] - minecraft:andesite_slab
