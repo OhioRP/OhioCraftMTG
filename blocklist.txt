@@ -1,23 +1,23 @@
-later - minecraft:acacia_button
+later (redstone) - minecraft:acacia_button
 [x] minecraft:acacia_door
 [x] minecraft:acacia_fence
 [x] minecraft:acacia_fence_gate
-later - minecraft:acacia_hanging_sign
+minecraft:acacia_hanging_sign
 [x] - minecraft:acacia_leaves
 [x] - minecraft:acacia_log
 [x] - minecraft:acacia_planks
-later - minecraft:acacia_pressure_plate
+later (redstone) - minecraft:acacia_pressure_plate
 [x] - minecraft:acacia_sapling
-[x] - minecraft:acacia_sign
+won't implement - minecraft:acacia_sign
 [x] - minecraft:acacia_slab
 [x] - minecraft:acacia_stairs
 [x] - minecraft:acacia_trapdoor
-[x] - minecraft:acacia_wall_hanging_sign
-[x] - minecraft:acacia_wall_sign
+won't implement - minecraft:acacia_wall_hanging_sign
+won't implement - minecraft:acacia_wall_sign
 [x] - minecraft:acacia_wood
-later - minecraft:activator_rail
+[x] - minecraft:activator_rail
 [x] - minecraft:air
-[x] - minecraft:allium
+won't implement - minecraft:allium
 [x] - minecraft:amethyst_block
 [x] - minecraft:amethyst_cluster
 [x] - minecraft:ancient_debris
@@ -25,9 +25,9 @@ later - minecraft:activator_rail
 [x] - minecraft:andesite_slab
 [x] - minecraft:andesite_stairs
 [x] - minecraft:andesite_wall
-later later - minecraft:anvil
-[x] - minecraft:attached_melon_stem
-[x] - minecraft:attached_pumpkin_stem
+later (enchanting) - minecraft:anvil
+won't implement - minecraft:attached_melon_stem
+won't implement - minecraft:attached_pumpkin_stem
 [x] - minecraft:azalea
 minecraft:azalea_leaves
 minecraft:azure_bluet
@@ -331,13 +331,13 @@ minecraft:diamond_ore
 [x] - minecraft:diorite_wall
 [x] - minecraft:dirt
 [x] - minecraft:dirt_path
-later - minecraft:dispenser
+later (redstone) - minecraft:dispenser
 [x] - minecraft:dragon_egg
 [x] - minecraft:dragon_head
 [x] - minecraft:dragon_wall_head
 [x] - minecraft:dried_kelp_block
 [x] - minecraft:dripstone_block
-later - minecraft:dropper
+later (redstone) - minecraft:dropper
 [x] - minecraft:emerald_block
 [x] - minecraft:emerald_ore
 minecraft:enchanting_table
