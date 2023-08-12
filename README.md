@@ -8,9 +8,10 @@
   The minetest-based game for Ohio RP
 <p>
 
-The modification pack for The Ohio RP Custom Minecraft (OhioCraft). This is meant to be used as a modpack for the [`minetest`](https://github.com/minetest/minetest) engine.
-To get more info about the [Utils](./Utils/) folder, read [Utils](#utils).
-To get more info on the remaining stuff that needs to be implemented in [`PortCraft`](./PortCraft/), check [`blocklist.txt`](./blocklist.txt).
+The modification pack for The Ohio RP Custom Minecraft (OhioCraft). This is meant to be used as a modpack for the [`minetest`](https://github.com/minetest/minetest) engine. <br>
+To get more info about the [Utils](./Utils/) folder, read [Utils](#utils). <br>
+To get more info on the remaining Minecraft stuff that needs to be implemented, check [`blocklist.txt`](./blocklist.txt). <br>
+**If you wan't to contribute to the project, please read [Contributing](CONTRIBUTING.md)**.
 
 ## Quick Start
 ```console
