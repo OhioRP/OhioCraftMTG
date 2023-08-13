@@ -14,7 +14,7 @@ minetest.register_node("portcraft:cool", {
         "portcraft_block_cool_sides.png",
     },
     sounds = {
-        dug = { name = "portcraft_block_cool_dug", gain = 0.6 },
+        dug = { name = "portcraft_block_cool_dug", gain = 4 },
         dig = { name = "portcraft_block_cool_dig", gain = 0.1 }
     },
     groups = { oddly_breakable_by_hand = 3 }
