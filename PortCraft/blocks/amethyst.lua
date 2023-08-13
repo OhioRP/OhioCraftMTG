@@ -1,6 +1,6 @@
 local sounds = {
-    footstep = { name = "portcraft_block_amethyst_step", gain = 1 },
-    place = { name = "portcraft_block_amethyst_place", gain = 1 },
+    footstep = { name = "portcraft_block_amethyst_step", gain = 0.1 },
+    place = { name = "portcraft_block_amethyst_place", gain = 0.1 },
     dig = { name = "portcraft_block_amethyst_breaking", gain = 1 },
     dug = { name = "portcraft_block_amethyst_break", gain = 1 }
 }
