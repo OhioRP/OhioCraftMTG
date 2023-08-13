@@ -11,9 +11,10 @@
 The modification pack for The Ohio RP Custom Minecraft (OhioCraft). This is meant to be used as a modpack for the [`minetest`](https://github.com/minetest/minetest) engine. <br>
 To get more info about the [Utils](./Utils/) folder, read [Utils](#utils). <br>
 To get more info on the remaining Minecraft stuff that needs to be implemented, check [`blocklist.txt`](./blocklist.txt). <br>
+If you want to know our general goals with this project, please read the [organization's README](https://github.com/OhioRP). <br>
 **If you want to contribute to the project, please read [Contributing](CONTRIBUTING.md)**.
 
-## Quick Start
+## Quick Start (Linux)
 ```console
 $ ./install.sh # will install to `~/.minetest/mods/ohiocraft`
 ```
