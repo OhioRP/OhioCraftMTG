@@ -1,3 +1,3 @@
 # Licensing
 
-All textures were created by me and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+All textures were created by [@HatsuSixty](https://github.com/HatsuSixty) and are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
