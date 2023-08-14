@@ -3,6 +3,7 @@
         "minetest",
         "doors",
         "stairs",
-        "walls"
+        "walls",
+        "default"
     ]
 }
