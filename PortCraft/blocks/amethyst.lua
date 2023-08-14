@@ -9,7 +9,7 @@ minetest.register_node("portcraft:amethyst", {
     description = S("Amethyst"),
     tiles = { "portcraft_block_amethyst.png" },
     sounds = sounds,
-    groups = { cracky = 3 }
+    groups = { cracky = 2 }
 })
 
 minetest.register_craft({
