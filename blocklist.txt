@@ -29,8 +29,8 @@ later (enchanting) - minecraft:anvil
 won't implement - minecraft:attached_melon_stem
 won't implement - minecraft:attached_pumpkin_stem
 [x] - minecraft:azalea
-minecraft:azalea_leaves
-minecraft:azure_bluet
+[x] - minecraft:azalea_leaves
+won't implement - minecraft:azure_bluet
 minecraft:bamboo
 minecraft:bamboo_block
 minecraft:bamboo_button
