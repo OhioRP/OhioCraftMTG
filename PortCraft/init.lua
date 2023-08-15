@@ -27,6 +27,18 @@ function Split(inputstr, sep)
     return t
 end
 
+function MyRegisterStairAndSlab(subname, recipeitem, groups, images,
+                                          desc_stair, desc_slab, sounds, worldaligntex)
+    stairs.register_stair(subname, recipeitem, groups, images, S(desc_stair),
+        sounds, worldaligntex)
+    stairs.register_stair_inner(subname, recipeitem, groups, images, "",
+        sounds, worldaligntex, S("Inner " .. desc_stair))
+    stairs.register_stair_outer(subname, recipeitem, groups, images, "",
+        sounds, worldaligntex, S("Outer " .. desc_stair))
+    stairs.register_slab(subname, recipeitem, groups, images, S(desc_slab),
+        sounds, worldaligntex)
+end
+
 S = minetest.get_translator("portcraft")
 
 -- Includes

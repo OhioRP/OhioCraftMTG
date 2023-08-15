@@ -1,15 +1,3 @@
-local function my_register_stair_and_slab(subname, recipeitem, groups, images,
-                                          desc_stair, desc_slab, sounds, worldaligntex)
-    stairs.register_stair(subname, recipeitem, groups, images, S(desc_stair),
-        sounds, worldaligntex)
-    stairs.register_stair_inner(subname, recipeitem, groups, images, "",
-        sounds, worldaligntex, S("Inner " .. desc_stair))
-    stairs.register_stair_outer(subname, recipeitem, groups, images, "",
-        sounds, worldaligntex, S("Outer " .. desc_stair))
-    stairs.register_slab(subname, recipeitem, groups, images, S(desc_slab),
-        sounds, worldaligntex)
-end
-
 local function create_new_stone_like_node(name, durability, generate)
     local name_no_underscore, _ = string.gsub(name, '_', '')
     local inventory_name = JoinWithSpace(Split(name, "_"))
@@ -34,7 +22,7 @@ local function create_new_stone_like_node(name, durability, generate)
         groups = { cracky = durability }
     })
 
-    my_register_stair_and_slab(
+    MyRegisterStairAndSlab(
         name_no_underscore,
         "portcraft:" .. name,
         { cracky = durability },
