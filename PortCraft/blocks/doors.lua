@@ -1,4 +1,4 @@
-local function create_door_from_wood(name)
+local function create_door_from_wood(mod, name)
     name = Trim(string.lower(name))
     doors.register("portcraft:" .. name .. "_door", {
         tiles = { { name = "portcraft_block_door" .. name .. ".png", backface_culling = true } },
@@ -11,9 +11,9 @@ local function create_door_from_wood(name)
         type = "shaped",
         output = "portcraft:" .. name .. "_door 1",
         recipe = {
-            { "default:" .. name .. "_wood", "default:" .. name .. "_wood" },
-            { "default:" .. name .. "_wood", "default:" .. name .. "_wood" },
-            { "default:" .. name .. "_wood", "default:" .. name .. "_wood" }
+            { mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood" },
+            { mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood" },
+            { mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood" }
         }
     })
 
@@ -30,10 +30,10 @@ local function create_door_from_wood(name)
         type = "shaped",
         output = "portcraft:" .. name .. "_trapdoor 1",
         recipe = {
-            { "default:" .. name .. "_wood", "default:" .. name .. "_wood", "default:" .. name .. "_wood" },
-            { "default:" .. name .. "_wood", "default:" .. name .. "_wood", "default:" .. name .. "_wood" }
+            { mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood" },
+            { mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood", mod .. ":" .. name .. "_wood" }
         }
     })
 end
 
-create_door_from_wood("acacia")
+create_door_from_wood("default", "acacia")
