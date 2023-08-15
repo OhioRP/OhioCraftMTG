@@ -32,24 +32,24 @@ won't implement - minecraft:attached_pumpkin_stem
 [x] - minecraft:azalea_leaves
 won't implement - minecraft:azure_bluet
 minecraft:bamboo
-minecraft:bamboo_block
-minecraft:bamboo_button
-minecraft:bamboo_door
-minecraft:bamboo_fence
-minecraft:bamboo_fence_gate
+won't implement - minecraft:bamboo_block
+later (redstone) - minecraft:bamboo_button
+[x] - minecraft:bamboo_door
+[x] - minecraft:bamboo_fence
+[x] - minecraft:bamboo_fence_gate
 minecraft:bamboo_hanging_sign
-minecraft:bamboo_mosaic
-minecraft:bamboo_mosaic_slab
-minecraft:bamboo_mosaic_stairs
-minecraft:bamboo_planks
-minecraft:bamboo_pressure_plate
-minecraft:bamboo_sapling
-minecraft:bamboo_sign
-minecraft:bamboo_slab
-minecraft:bamboo_stairs
-minecraft:bamboo_trapdoor
-minecraft:bamboo_wall_hanging_sign
-minecraft:bamboo_wall_sign
+won't implement - minecraft:bamboo_mosaic
+won't implement - minecraft:bamboo_mosaic_slab
+won't implement - minecraft:bamboo_mosaic_stairs
+[x] - minecraft:bamboo_planks
+later (redstone) - minecraft:bamboo_pressure_plate
+won't implement - minecraft:bamboo_sapling
+won't implement - minecraft:bamboo_sign
+[x] - minecraft:bamboo_slab
+[x] - minecraft:bamboo_stairs
+[x] - minecraft:bamboo_trapdoor
+won't implement - minecraft:bamboo_wall_hanging_sign
+won't implement - minecraft:bamboo_wall_sign
 minecraft:barrel
 minecraft:barrier
 minecraft:basalt

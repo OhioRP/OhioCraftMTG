@@ -37,3 +37,4 @@ local function create_door_from_wood(mod, name)
 end
 
 create_door_from_wood("default", "acacia")
+create_door_from_wood("portcraft", "bamboo")
