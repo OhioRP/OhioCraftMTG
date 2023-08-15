@@ -43,4 +43,27 @@ local function create_new_wood_node(name)
     })
 end
 
+minetest.register_craftitem("portcraft:bamboo_stick", {
+    description = S("Bamboo Stick"),
+    inventory_image = "portcraft_item_bamboo.png"
+})
+minetest.register_craft({
+    output = "portcraft:bamboo_stick 3",
+    type = "shaped",
+    recipe = {
+        {"", "", "default:stick"},
+        {"", "default:stick", ""},
+        {"default:stick", "", ""}
+    }
+})
+
 create_new_wood_node("bamboo")
+minetest.register_craft({
+    output = "portcraft:bamboo_wood 1",
+    type = "shaped",
+    recipe = {
+        { "portcraft:bamboo_stick", "portcraft:bamboo_stick", "portcraft:bamboo_stick" },
+        { "portcraft:bamboo_stick", "portcraft:bamboo_stick", "portcraft:bamboo_stick" },
+        { "portcraft:bamboo_stick", "portcraft:bamboo_stick", "portcraft:bamboo_stick" }
+    }
+})
