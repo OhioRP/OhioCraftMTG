@@ -19,7 +19,7 @@ local function create_new_wood_node(name)
     MyRegisterStairAndSlab(
         name_no_underscore,
         "portcraft:" .. name .. "_wood",
-        { choppy = 2, oddly_breakable_by_hand = 2, flammable = 2, wood = 1 },
+        { choppy = 2, oddly_breakable_by_hand = 2, flammable = 2 },
         { "portcraft_block_" .. name_no_underscore .. "_sides.png" },
         inventory_name .. " Stair",
         inventory_name .. " Slab",
