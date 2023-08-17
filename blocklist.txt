@@ -51,7 +51,7 @@ won't implement - minecraft:bamboo_sign
 won't implement - minecraft:bamboo_wall_hanging_sign
 won't implement - minecraft:bamboo_wall_sign
 minecraft:barrel
-minecraft:barrier
+won't implement - minecraft:barrier
 minecraft:basalt
 minecraft:beacon
 minecraft:bedrock
