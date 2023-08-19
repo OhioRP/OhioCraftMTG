@@ -52,7 +52,7 @@ won't implement - minecraft:bamboo_wall_hanging_sign
 won't implement - minecraft:bamboo_wall_sign
 [x] - minecraft:barrel
 won't implement - minecraft:barrier
-minecraft:basalt
+[x] - minecraft:basalt
 minecraft:beacon
 minecraft:bedrock
 minecraft:bee_nest

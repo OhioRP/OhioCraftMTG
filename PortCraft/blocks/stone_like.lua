@@ -75,6 +75,18 @@ minetest.register_craft({
     }
 })
 
+create_new_stone_like_node("basalt", 1, false)
+minetest.register_craft({
+    type = "shapeless",
+    output = "portcraft:basalt 1",
+    recipe = { "bucket:bucket_lava", "group:stone" }
+})
+minetest.register_on_craft(function(itemstack, player, _, _)
+    if itemstack:to_string() == "portcraft:basalt" then
+        player:get_inventory():add_item("main", ItemStack("bucket:bucket_lava"))
+    end
+end)
+
 create_new_stone_like_node("diorite", 2, true)
 minetest.register_craft({
     type = "shaped",

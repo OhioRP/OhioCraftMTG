@@ -4,6 +4,7 @@
         "doors",
         "stairs",
         "walls",
-        "default"
+        "default",
+        "ItemStack"
     ]
 }
