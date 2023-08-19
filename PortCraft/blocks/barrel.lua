@@ -1,8 +1,6 @@
 -- Adapted from the code of the chest block from minetest_game:
 -- https://github.com/minetest/minetest_game/blob/08e057bf1c1d99e6219551f75ad4b6366682c38c/mods/default/chests.lua#L89
 
--- TODO: Sounds
-
 local prefixed_name = "portcraft:barrel"
 local def = {
     description = S("Barrel"),
