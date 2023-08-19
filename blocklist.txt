@@ -50,7 +50,7 @@ won't implement - minecraft:bamboo_sign
 [x] - minecraft:bamboo_trapdoor
 won't implement - minecraft:bamboo_wall_hanging_sign
 won't implement - minecraft:bamboo_wall_sign
-minecraft:barrel
+[x] - minecraft:barrel
 won't implement - minecraft:barrier
 minecraft:basalt
 minecraft:beacon
