@@ -53,7 +53,7 @@ won't implement - minecraft:bamboo_wall_sign
 [x] - minecraft:barrel
 won't implement - minecraft:barrier
 [x] - minecraft:basalt
-minecraft:beacon
+[x] - minecraft:beacon
 minecraft:bedrock
 minecraft:bee_nest
 minecraft:beehive
