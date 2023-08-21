@@ -24,6 +24,13 @@ Inner Ancient Debris Stair=Escada Interior de Detritos Ancestrais
 Outer Ancient Debris Stair=Escada Exterior de Detritos Ancestrais
 Ancient Debris Wall=Parede de Detritos Ancestrais
 
+Basalt=Basalto
+Basalt Slab=Laje de Basalto
+Basalt Stair=Escada de Basalto
+Inner Basalt Stair=Escada Interior de Basalto
+Outer Basalt Stair=Escada Exterior de Basalto
+Basalt Wall=Parede de Basalto
+
 Acacia Door=Porta de Acacia
 Acacia Trapdoor=Alçapão de Acacia
 
@@ -43,3 +50,4 @@ Azalea Leaves=Folhas de Azaléia
 Amethyst=Ametista
 Amethyst Cluster=Aglomerado de Ametista
 Barrel=Barril
+Beacon=Beacon
