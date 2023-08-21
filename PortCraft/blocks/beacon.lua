@@ -1,5 +1,5 @@
 minetest.register_node("portcraft:beacon", {
-    description = "Beacon",
+    description = S("Beacon"),
     drawtype = "mesh",
     mesh = "portcraft_block_beacon.obj",
     tiles = { "portcraft_block_beacon.png" },
