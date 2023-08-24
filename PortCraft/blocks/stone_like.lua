@@ -103,3 +103,14 @@ minetest.register_craft({
     output = "portcraft:andesite 1",
     recipe = { "default:cobble", "portcraft:diorite" }
 })
+
+create_new_stone_like_node("bedrock", 0, false)
+minetest.register_on_punchnode(function(pos, node, puncher, pointed_thing)
+    if string.find(node.name, "bedrock") then
+        if minetest.is_creative_enabled(puncher) then
+            minetest.sound_play(minetest.registered_nodes[node.name].sounds["dug"], {})
+            puncher:get_inventory():add_item("main", ItemStack(node.name))
+            minetest.remove_node(pos)
+        end
+    end
+end)
