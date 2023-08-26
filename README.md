@@ -9,9 +9,11 @@
 <p>
 
 The Ohio RP Custom Minecraft (OhioCraft). This is a fork of [`minetest_game`](https://github.com/minetest/minetest_game). <br>
+If you want to know our general goals with this project, please read the [organization's README](https://github.com/OhioRP). <br>
 To get more info about the [Utils](./Utils/) folder, read [Utils](#utils). <br>
 To get more info on the remaining Minecraft stuff that needs to be implemented, check [`blocklist.txt`](./blocklist.txt). <br>
-If you want to know our general goals with this project, please read the [organization's README](https://github.com/OhioRP). <br>
+This game is obviously API compatible with [`minetest_game`](https://github.com/minetest/minetest_game), so if you want to use its API, please check `minetest_game`'s API. <br>
+<br>
 **If you want to contribute to the project, please read [Contributing](CONTRIBUTING.md)**.
 
 ## Quick Start (Linux)
