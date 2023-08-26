@@ -55,9 +55,9 @@ won't implement - minecraft:barrier
 [x] - minecraft:basalt
 [x] - minecraft:beacon
 [x] - minecraft:bedrock
-minecraft:bee_nest
-minecraft:beehive
-minecraft:beetroots
+won't implement - minecraft:bee_nest
+won't implement - minecraft:beehive
+won't implement - minecraft:beetroots
 minecraft:bell
 minecraft:big_dripleaf
 minecraft:big_dripleaf_stem
