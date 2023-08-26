@@ -1,10 +1,14 @@
 {
     "Lua.diagnostics.globals": [
+        "vector",
         "minetest",
-        "doors",
-        "stairs",
-        "walls",
-        "default",
-        "ItemStack"
+        "ItemStack",
+        "VoxelArea",
+        "spawn_falling_node",
+        "PcgRandom",
+        "dump",
+        "VoxelManip",
+        "PseudoRandom",
+        "Farming"
     ]
 }

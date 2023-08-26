@@ -2,7 +2,7 @@
 
 ## Before making any changes
 
-If you want to implement anything too complex, like enchanting or redstone, please create a separate mod for that.
+Any OhioCraft related changes must be made inside [the modpack](./mods/ohiocraft/). If you want to implement anything too complex, like enchanting or redstone, please create a separate mod for that.
 
 ## Code conventions
 
